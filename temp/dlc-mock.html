@@ -32,10 +32,10 @@
         <div class="spacer"></div>
         <div class="row">
             <div class="col">
-                <p><span class="fa fa-solid fa-check"></span> Advanced Diagnostics <span class="fa fa-solid fa-check"></span></p>
-                <p><span class="fa fa-solid fa-check"></span> Servicing and Maintenance including E.V. <span class="fa fa-solid fa-check"></span></p>
-                <p><span class="fa fa-solid fa-check"></span> Installations and Modifications <span class="fa fa-solid fa-check"></span></p>
-                <p><span class="fa fa-solid fa-check"></span> MOT Preparation and Repairs <span class="fa fa-solid fa-check"></span></p>
+                <p><span class="fa fa-solid fa-check"></span> Advanced Diagnostics</p>
+                <p><span class="fa fa-solid fa-check"></span> Servicing and Maintenance including E.V.</p>
+                <p><span class="fa fa-solid fa-check"></span> Installations and Modifications</p>
+                <p><span class="fa fa-solid fa-check"></span> MOT Preparation and Repairs</p>
             </div>
         </div>
     </div>
@@ -58,15 +58,9 @@
         background-color: #020121;
     }
 
-    h2 {
+    h2, p {
         text-align: center;
         color: white;
-    }
-
-    p {
-        text-align: center;
-        color: white;
-        font-size: 1.5em;
     }
 
     a {
@@ -84,8 +78,24 @@
     }
 
     .copy {
-        font-size: 1em;
         color: #b4a3b6;
+    }
+
+    @media(max-width : 540px) {
+        p {
+            font-size: 1.2em;
+        }
+        .copy {
+            font-size: 0.8em;
+        }
+    }
+    @media(min-width : 541px) {
+        p {
+            font-size: 1.5em;
+        }
+        .copy {
+            font-size: 1em;
+        }
     }
 
     @media(min-height : 850px) {
